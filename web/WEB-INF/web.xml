@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>addpost</servlet-name>
+        <servlet-class>Servlet.PostServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addpost</servlet-name>
+        <url-pattern>/addpost</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addreply</servlet-name>
+        <servlet-class>Servlet.ReplyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addreply</servlet-name>
+        <url-pattern>/addreply</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>useradd</servlet-name>
+        <servlet-class>Servlet.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>useradd</servlet-name>
+        <url-pattern>/useradd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addtype</servlet-name>
+        <servlet-class>Servlet.PostTypeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addtype</servlet-name>
+        <url-pattern>/addtype</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addSumReply</servlet-name>
+        <servlet-class>Servlet.PostServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addSumReply</servlet-name>
+        <url-pattern>/addSumReply</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteuser</servlet-name>
+        <servlet-class>Servlet.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteuser</servlet-name>
+        <url-pattern>/deleteuser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deletepost</servlet-name>
+        <servlet-class>Servlet.PostServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deletepost</servlet-name>
+        <url-pattern>/deletepost</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deletetype</servlet-name>
+        <servlet-class>Servlet.PostTypeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deletetype</servlet-name>
+        <url-pattern>/deletetype</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deletereply</servlet-name>
+        <servlet-class>Servlet.ReplyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deletereply</servlet-name>
+        <url-pattern>/deletereply</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateuser</servlet-name>
+        <servlet-class>Servlet.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateuser</servlet-name>
+        <url-pattern>/updateuser</url-pattern>
+    </servlet-mapping>
+
+</web-app>
